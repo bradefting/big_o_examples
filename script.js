@@ -32,7 +32,7 @@ function myAge(){
 myAge();
 
 
-// O(n2) Quadratic Time
+// O(n^2) Quadratic Time
 
 //nested for-loops = 2 X linear Time
 
@@ -56,5 +56,6 @@ function largestArr(arr){
   console.log(total, 'is the total of the largest array');
   console.log(bigArr, 'is largest array');
 }
+
 largestArr([[1,2],[1,1,3]]);
 largestArr([[100],[1,20]]);
